@@ -1,0 +1,83 @@
+:root {
+    --font-family: 'DM Serif Text';
+    --font-display: 'DM Serif Display';
+    --font-color: #F2F2F2;
+    --font-size: 16px;
+    --background-color: #2b2b2bab;
+    --background-color-solid: #2b2b2b;
+}
+
+* {
+    color: var(--font-color);
+}
+
+h1 {
+    font-weight: 100;
+    font-size: clamp(2rem, 2.1vw, 2.3rem);
+    font-family: var(--font-display);
+}
+
+h2 {
+    font-weight: 100;
+    font-size: clamp(1.5rem, 1.8vw, 1.8rem);
+    font-family: var(--font-display);
+}
+
+p {
+    font-size: clamp(1rem, 1.5vw, 1.8rem);
+    font-family: var(var(--font-family));
+}
+
+.brrgrr div {
+    background-color: var(--font-color);
+}
+
+.nav-menu {
+    background-color: var(--background-color-solid);
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-size: clamp(1.2rem, 1.8vw, 1.4rem);
+    font-family: var(--font-family);
+    margin-right: 2vw;
+}
+
+.dropdown-content {
+    background-color: var(--background-color-solid);
+}
+
+.dropdown-content a {
+    font-size: clamp(1.0rem, 1.5vw, 1.2rem)
+}
+
+.underline-navbar {
+    background-color: var(--font-color);
+}
+
+.title-box {
+    background-color: var(--background-color);
+}
+
+.footer-container {
+    background-color: var(--background-color-solid);
+}
+
+.footer-container a {
+    text-decoration: none;
+}
+
+.footer-container h1 {
+    font-size: clamp(2.8rem, 4vw, 6rem);
+}
+
+.footer-container h2 {
+    font-size: clamp(1.5rem, 2vw, 2rem);
+}
+
+.tcs-container {
+    font-size: clamp(0.8rem, 1vw, 1rem);
+    background-color: black;
+}

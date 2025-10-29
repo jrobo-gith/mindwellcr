@@ -1,0 +1,60 @@
+body {
+    line-height: 1.3;
+    overflow-x: hidden;
+}
+
+.page-container {
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.page-container h1 {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.page-container img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.front-photo {
+    width: 55vw;
+    max-width: 750px;
+    border-radius: 5px;
+}
+
+.qualified-text {
+    text-align: center;
+    margin: 0px 5vw 0px 5vw;
+}
+
+.sub-title {
+    padding-left: 10vw;
+}
+
+.qualifications {
+    padding-left: 10vw;
+}
+
+.qualifications li {
+    font-size: clamp(1rem, 1.5vw, 1.8rem);
+}
+
+.training {
+    padding-left: 10vw;
+}
+
+.training li {
+    font-size: clamp(1rem, 1.5vw, 1.8rem);
+}
+
+.text {
+    text-align: center;
+    margin: 0px 5vw 0px 5vw;  
+}

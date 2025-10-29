@@ -1,0 +1,7 @@
+h3 {
+  font-size: clamp(1.7rem, 2.5vw, 3rem);
+}
+
+p {
+  font-size: clamp(1.2rem, 2.0vw, 2.0rem);
+}

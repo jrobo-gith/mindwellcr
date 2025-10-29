@@ -1,0 +1,12 @@
+.page-container {
+    background-color: var(--background-color);
+}
+
+.question {
+    background-color: var(--background-color-solid);
+    border-radius: 25px;
+}
+
+.question-title {
+    font-weight: 500;
+}

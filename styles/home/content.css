@@ -1,0 +1,28 @@
+.title-underline {
+    background-color: var(--font-color);    
+}
+
+.hero-container {
+    background-color: var(--background-color);
+}
+
+.hello-message {
+    font-weight: 300;
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 3.2vw, 3rem);
+}
+
+.consult-button {
+    background-color: #82beff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(5px 10px var(--background-color));
+    text-decoration: none;
+    font-size: clamp(1.1rem, 1.3vw, 1.7rem)
+}
+
+
+
+

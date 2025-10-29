@@ -1,0 +1,9 @@
+.page-container {
+    background-color: var(--background-color);
+}
+
+li {
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
+    list-style-type: square;
+
+}

@@ -1,0 +1,13 @@
+.page-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+.page-title {
+    margin-bottom: 12vh;
+}
+
+.fees-list li {
+    margin: 5vh 10vw 0px 10vw;
+}
