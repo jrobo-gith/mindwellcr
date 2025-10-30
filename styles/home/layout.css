@@ -68,3 +68,30 @@
     height: 6vh;
     width: 42vw;   
 }
+
+.testimonials-container {
+    margin: 2vh 5vw 0px 5vw;
+    border-radius: 20px;
+}
+
+.testimonials-container h3 {
+    text-align: center;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    gap: 5vw;
+    padding: 1vh;
+}
+
+.testimonial {
+    padding: 1vh;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.testimonial-title {
+    margin-bottom: 1vh;
+}

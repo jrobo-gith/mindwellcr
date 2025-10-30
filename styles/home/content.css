@@ -23,6 +23,20 @@
     font-size: clamp(1.1rem, 1.3vw, 1.7rem)
 }
 
+.testimonials-container {
+    background-color: var(--background-color);
+}
+
+.testimonials-container h3 {
+    font-size: clamp(1.5rem, 1.8vw, 1.8rem);
+}
+
+.testimonial {
+    background-color: #292929
+}
+
+
+
 
 
 
