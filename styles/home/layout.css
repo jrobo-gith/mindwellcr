@@ -95,3 +95,13 @@
 .testimonial-title {
     margin-bottom: 1vh;
 }
+
+/* Mobile */
+@media only screen and (max-width: 1500px) {
+
+    .testimonials-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
