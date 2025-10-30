@@ -29,7 +29,7 @@
     border-radius: 5%;
 }
 
-.top-image {
+.top-image img {
     transform: rotate(270deg);
 }
 
@@ -47,5 +47,9 @@
 
     .top-image {
         transform: rotate(270deg);
+    }
+
+    .top-image img {
+        transform: rotate(0deg);
     }
 }
