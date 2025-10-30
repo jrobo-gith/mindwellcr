@@ -29,6 +29,10 @@
     border-radius: 5%;
 }
 
+.top-image {
+    transform: rotate(270deg)
+}
+
 @media only screen and (max-width: 1500px) {
     .page-container {
         display: flex;
